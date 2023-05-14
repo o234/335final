@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pokemon DB</title>
+
+    <style>
+      .title {
+        color: red;
+        text-align: center;
+        animation: text-animation 3s infinite;
+      }
+
+      @keyframes text-animation {
+        0% {
+          color: red;
+        }
+        50% {
+          color: blue;
+        }
+        100% {
+          color: green;
+        }
+      }
+
+      body {
+        text-align: center;
+      }
+
+      img {
+        width: 25%;
+      }
+
+      img:hover{
+        transform: scale(1.2);
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="title">POKEMANS</h1>
+
+    <div>
+      <a href="/search"
+        ><img
+          src="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg"
+          alt="pball"
+      /></a>
+      <a href="/history"
+        ><img
+          src="https://www.nicepng.com/png/detail/228-2285786_pokedex-kanto-pokedex-de-kanto.png"
+          alt="dex"
+      /></a>
+    </div>
+  </body>
+</html>
